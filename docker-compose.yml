@@ -2,6 +2,6 @@ version: '3'
 
 services:
   onlinebookstoreweb:
-    image: shekardockerreg/on-try:22
+    image: shekardockerreg/on-try:TAG
     ports:
       - "8080:8080"
