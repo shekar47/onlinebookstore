@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  onlinebookstoreweb:
+    image: shekardockerreg/on-try:22
+    ports:
+      - "8080:8080"
