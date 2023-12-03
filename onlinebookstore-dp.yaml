@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: onlinebookstore-container
-        image: shekardockerreg/onlinebookstore:TAG
+        image: shekardockerreg/onlinebookstore:ROLL_TAG
         ports:
         - containerPort: 8080
 ---
