@@ -6,11 +6,7 @@ metadata:
 spec:
   replicas: 2
   strategy:
-    type: RollingUpdate
-    rollingUpdate:
-      maxUnavailable: 50%
-      maxSurge: 50%
-    minReadySeconds: 30
+    type: Recreate
   selector:
     matchLabels:
       app: bookstore
